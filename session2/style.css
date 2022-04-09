@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    border-left: 50px black;
+    
+}
+li{display: inline;
+    
+    margin-right: 20px;
+    padding: 20px;
+}
+#slogan{
+    background-color: #be2e22;
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+}
+.logo{
+    max-width: 200px;
+    max-height: 100px;
+    display:inline;
+    float: left;
+}
+.title{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 1000;
+}
+header{
+    height: 300px;;
+    positoin: fixed; width: 100%; z-index: 9999; top: 0; left:0;
+    background-image:url(http://menu.mtn.co.kr/upload/article/2018/01/23/2018012315454830080_00_436.jpg);
+}
+
+.ingredient{
+    
+    background-color: rgb(219, 235, 148);
+    border: 1px solid #3b8616;
+    padding: 25px, 30px;
+    color: #222;
+    font-size: 16px;
+    font-weight: 100px;
+    text-align: center;
+}
+.menu{
+    padding-top: 20;
+}
+h3{
+    margin-top: 5%;
+    margin-left: 16%;
+    color: dimgray;
+}
+table{
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 70%;    
+}
+.minwoopic{
+    max-width: 40%;
+    max-height:40%;
+}
+.card{
+    float: right;
+}
