@@ -1,0 +1,168 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+.header-top{
+    background: #efefef;
+    width: 100%;
+    height: 130px;
+    position: relative;
+    z-index: 1;
+}
+.top-logo{
+    display: flex;
+    background-color: #efefef;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.top-menu{
+    display: flex;
+    background-color: #efefef;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+
+    font-size: 18px;
+    color: #666;
+    font-weight: 500;
+    /* display: inline-block; */
+    text-align: center;
+    
+}
+#top-text{
+    border-left: 1px solid #666;
+    padding-right: 40px;
+    background-color: #efefef;
+}
+.start{
+    clear: both;
+}
+.sns{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+    margin-left: auto;
+    justify-content: center;
+}
+.sns-logo{
+    padding-left: 0px;
+    width: 100%;
+    text-align: center;
+}
+.orangelogo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    padding-top: 10px;
+}
+.orangelogo::before{
+    content: "  ";
+    flex-grow: 1;
+    margin: 0px 16px;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
+.orangelogo::after{
+    content: "  ";
+    flex-grow: 1;
+    margin: 0px 16px;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
+.menu-top{
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: x-large;
+}
+.middle-menu{
+    display: flex;
+    margin:0 auto;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    font-size: 18px;
+    font-weight: 1000;
+    text-align: center;
+}
+#middle-text{
+    border-left: 1px solid #666;
+    padding-right: 40px;
+}
+.kimbbok-main{
+    text-align: center;
+    width: 800px;
+    border: 10px dashed plum;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin:0 auto;
+    font-family: 'Jeju Myeongjo', serif;
+}
+.ingredient{
+    text-align: center;
+    font-size: larger;
+    width: 800px;
+    border: 10px solid #ffff71;
+    box-sizing: border-box;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: x-large;
+}
+.recipe{
+    text-align: center;
+    font-size: larger;
+    width: 800px;
+    border: 10px dotted rgb(252, 202, 39);
+    box-sizing: border-box;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Jeju Myeongjo', serif;
+}
+.recipe-images{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.recipe-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.recipe-text_c{
+    height: 20px;
+    font-size: larger;
+    box-sizing: content-box;
+    background-color: #25b9e2;
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.recipe-again{
+    text-align: left;
+    font-size: larger;
+    width: 800px;
+    border: 1px solid #7c7c7c;
+    box-sizing: border-box;
+    padding: 10px;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+.eshop{
+    color: #7c7c7c;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-family: 'Jeju Myeongjo', serif;
+}
