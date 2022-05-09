@@ -3,6 +3,8 @@ import sys
 import urllib.request
 
 #네이버 영화 API 키 값
+#client_id=
+#client_seceret=
 
 encText = urllib.parse.quote("닥터 스트레인지: 대혼돈의 멀티버스")
 url = "https://openapi.naver.com/v1/search/movie.json?query=" + encText # json 결과
