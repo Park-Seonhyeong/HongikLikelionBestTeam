@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Neonderthaw&family=The+Nautigal:wght@700&display=swap');
+*{
+    font-family: 'Jua';
+}
+body,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-width: fit-content;
+}
+h1{
+    font-size:  36px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+    
+}
+h3{
+    text-align: center;
+}
+footer{
+    text-align: center; /* 글자를 중앙에 정렬하겠다.*/
+    background-color: #5E2BCB ;
+    color: #B6B6B6 ;
+    font-size: 12px;
+}
+
+p{
+    font-size: 30px;
+}
+/*big-font로 하면 아무 변화가 없지만 .big-font처럼 앞에 .을 찍게 되면 이 클래스를 꾸미겠다는 의미*/
+.big-font{
+    font-size: 40px;
+}
+
+.small-font{
+    font-size: 20px;
+    font-weight: lighter;
+    color:#7c7c7c;
+}
+.downbox{
+    width: 100%;
+    background:linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+    text-align: center;
+    font-size: 32px;
+    line-height: 80px;
+    color: #000;
+    position: relative;
+    font-weight: 500;
+    border: 1px solid darkcyan;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0%;
+}
+.lastbox{
+    border: 1px solid #c9cac76c;
+    background: linear-gradient(to right, gold 0%, aqua 50%, pink 100%);
+}
+.lastboxcontent{
+    margin-left:5px;
+    font-size:14px;
+    color:#7c7c7c;
+    line-height: calc();
+}
+.mainbox{
+    border: 10mm ridge rgba(151, 73, 184, 0.6);/*테두리 만드는 방법*/
+    width: 610px;
+    padding:30px;
+    margin:30px;
+    margin-left:auto;
+    margin-right: auto;/* 박스를 중앙으로 옮기는 방법. text-align:center;을 하게되면 글만 중앙으로 이동하게 됨. */
+    
+}
+.subbox{
+    background: linear-gradient( to right, rgb(208,161,137), rgb(219, 235, 148));
+    border: 1px solid #3b8616;
+    padding: 25px 30px;
+    color: #222;
+    font-size: 16px;
+}
+section{
+    margin-bottom: 24px;
+}
+
+.name-text{
+    font-size:16px;
+    color:#7c7c7c;
+    font-weight: bold;
+}
+.bottomvisit{
+    text-align: center;
+    font-size: 15px;
+    color: #7c7c7c;
+    float:left;
+    
+}
+.link{
+    border: 1px solid green;
+    float: right;
+    margin-left: 5%;
+    font-size:10px;
+    width:50%;
+    box-sizing: border-box;
+    background-color:cyan;
+    vertical-align: middle;
+}
+.about-me-text{
+    font-size:10px;
+    line-height: 16px;
+}
+.title-text{
+    font-size:25px;
+    font-weight: bold;
+    color: #282828;
+    margin-bottom: 10px;
+    float:left;
+}
+.year-text{
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+.float-wrap{
+    overflow:hidden;
+}
+.desc-text{
+    font-size: 15px;
+
+}
+.desc-subtext{
+    font-size: 10px;
+    color:#282828;
+    padding-left:16px;
+}
+
+.title-box{
+    text-align: right;
+}
+
+.food-img{
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+    clear:both;
+}
+
+.sns-img{
+    width:12px;
+    height: 12px;
+}
+.sns-wrap{
+    text-align: right;
+}
+.image{
+    text-align: center;
+}

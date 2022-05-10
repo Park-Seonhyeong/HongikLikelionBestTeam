@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Neonderthaw&family=The+Nautigal:wght@700&display=swap');
+*{
+    font-family: 'Jua';
+}
+.hongiklogo{
+    font-style: oblique;
+    color:brown;
+}
+li{
+    font-weight: bold;
+    font-style: italic;
+}
