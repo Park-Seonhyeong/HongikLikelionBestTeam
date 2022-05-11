@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Blog List</title>
+    </head>
+    <body>
+        <h1>게시판 페이지입니다</h1>
+        <!-- 게시판(postlist)의 게시글(list)을 하나씩 보여줍니다 -->
+        <!-- 테이블 중괄호,퍼센트 내부엔 파이썬이 사용됩니다 -->
+        <table>
+            {% for list in postlist %}
+                <ul>
+                    <li><a href="{{list.pk}}/">{{list.postname}}</a></li>
+                </ul>
+            {% endfor %}
+        </table>
+        <button><a href="new_post/">글쓰기</a></button>
+    </body>
+</html>
