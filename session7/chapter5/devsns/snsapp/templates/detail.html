@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>제목 : {{ post_detail.title }}</h1>
+<h2>작성날짜 : {{ post_detail.date }}</h2>
+<p>
+    {{post_detail.body}}
+</p>
+
+<!-- 댓글 목록 공간 -->
+<!-- # 이 게시물을 참조하고 있는 comment라는 객체의 집합들의 전체를 순회한다 -->
+{% for comment in post_detail.comment_set.all %} 
+    <p>{{comment}}</p> 
+    <p>{{comment.date}}</p> 
+    <hr>
+{% endfor %}
+
+<!-- 댓글 입력 공간 -->
+<form action="{% url 'new_comment' post_detail.id %}" method="POST">
+    {% csrf_token %}
+    {{comment_form}}
+    <input type="submit" value="댓글 입력">
+</form>
+
+{% endblock %}
