@@ -1,0 +1,22 @@
+<h1>영화리뷰 웹 서비스</h1>
+
+{% for o in obj %}
+
+<a href="{% url 'detail' o.id %}">영화 상세보기</a>
+
+{{o.original_title}} <br>
+<img src="https://image.tmdb.org/t/p/w500/{{o.poster_path}}" >  <br>
+<img src="https://image.tmdb.org/t/p/w500/{{o.backdrop_path}}" >  <br>
+{{o.vote_average}} <br>
+{{o.overview}} <br>
+{{o.title}} <br>
+{{o.id}} <br>
+<br><br><br>
+
+{% endfor %}
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value="submit">
+</form>
